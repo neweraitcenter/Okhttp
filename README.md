@@ -1,8 +1,7 @@
 [![](https://www.jitpack.io/v/neweraitcenter/Okhttp.svg)](https://www.jitpack.io/#neweraitcenter/Okhttp)
 
-OkHttp
+Gradle添加依赖:
 ======
-Gradle:
 ```groovy
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
