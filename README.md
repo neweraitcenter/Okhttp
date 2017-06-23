@@ -19,15 +19,7 @@ Add it in your root build.gradle at the end of repositories:
 使用方法：
 =======
 ```groovy
-在项目application里面添加：
-OkHttpClient okHttpClient = new OkHttpClient.Builder()
-				.addInterceptor(new LoggerInterceptor("TAG"))
-				.connectTimeout(10000L, TimeUnit.MILLISECONDS)
-				.readTimeout(10000L, TimeUnit.MILLISECONDS)
-				//其他配置
-				.build();
 
-		OkHttpUtils.initClient(okHttpClient);
 ```
 
 
